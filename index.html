@@ -1,0 +1,211 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Cristian Galo 12111261</title>
+	<link href="css/framework7.bundle.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+	<div id="app">
+
+
+		<section class="panel panel-left panel-cover">
+			<div class="block-title">
+				<h3 style="color: black">Menu</h3>
+			</div>
+			<div class="profile">
+				<img class="avatar" src="img/picture.png" alt="User">
+				<div class="profile-info">
+					<div class="name">Cristian Galo</div>
+					<div class="email">cristiangalo@gmail.com</div>
+				</div>
+			</div>
+
+			<div class="block">
+				<div class="list links-list menu">
+					<ul>
+						<li>
+							<a href="/home/" class="panel-close">
+								<span class="icon"><i class="material-icons">home</i></span>
+								<span class="text">Home</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="/categories/" class="panel-close">
+								<span class="icon"><i class="material-icons">view_list</i></span>
+								<span class="text">Categories</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="/favorite/" class="panel-close">
+								<span class="icon"><i class="material-icons">favorite</i></span>
+								<span class="text">Favorites</span>
+							</a>
+						</li>
+
+						<li>
+							<a href="/myorders/" class="panel-close">
+								<span class="icon"><i class="material-icons">shopping_bag</i></span>
+								<span class="text">My Orders</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+
+		</section>
+
+		<div class="view view-main view-init">
+
+			<section data-name="home" class="page">
+
+
+				<nav class="navbar">
+					<div class="navbar-bg"></div>
+					<div class="navbar-inner">
+						<div class="left">
+							<a href="#" class="link panel-open" data-panel="left">
+								<i class="material-icons">menu</i>
+							</a>
+						</div>
+						<div class="title">Food Order</div>
+						<div class="right">
+							<a href="/categories/" class="link"><i class="material-icons">account_circle</i></a>
+						</div>
+					</div>
+				</nav>
+
+
+				<section class="page-content">
+
+					<br>
+
+					<div class="block-title popular-head">
+						<h2><span style="color: black;">Popular Item</span></h2>
+						<a href="/tienda/" class="seeall">See all</a>
+					</div>
+
+					<div class="block popular">
+						<div class="row no-gap no-wrap">
+
+							<div class="col card-col">
+								<div class="card food-card">
+									<div class="card-content card-content-padding">
+										<img class="food-img" src="img/bigtasty.png" alt="Beef Burger" />
+										<div class="food-name">Beef Burger</div>
+										<div class="food-desc">Cheesy Mozzarella</div>
+
+										<div class="food-bottom">
+											<div class="food-price">$7.90</div>
+											<a class="button button-small plus" href="#">
+												<i class="material-icons">add</i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="col card-col">
+								<div class="card food-card">
+									<div class="card-content card-content-padding">
+										<img class="food-img" src="img/bigmac.png" alt="Big Mac" />
+										<div class="food-name">Big Mac</div>
+										<div class="food-desc">Cheesy Mozzarella</div>
+
+										<div class="food-bottom">
+											<div class="food-price">$7.90</div>
+											<a class="button button-small plus" href="#">
+												<i class="material-icons">add</i>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="promo">
+						<div class="promo-content">
+							<h2>Free Pizza</h2>
+							<p class="promo-offer">1 + 1 = 1</p>
+							<a href="/detail/" class="promo-btn">Order Now</a>
+						</div>
+					</div>
+					<br>
+
+					<div class="block-title popular-head">
+						<h2><span style="color: black;">Recommend Item</span></h2>
+						<a href="/tienda/" class="seeall">See all</a>
+					</div>
+
+					<li class="product-row">
+						<a href="#" class="item-link item-content product-item">
+
+							<div class="item-media">
+								<img src="img/apple pie.jpg" class="product-img" alt="Apple Pie">
+							</div>
+
+							<div class="item-inner product-inner">
+								<div class="product-title">Apple Pie</div>
+								<div class="product-category">Dessert</div>
+								<div class="product-price">$4.70</div>
+							</div>
+
+							<div class="item-after">
+								<span class="product-plus">
+									<i class="material-icons">add</i>
+								</span>
+							</div>
+
+						</a>
+					</li>
+
+
+
+
+
+
+				</section>
+
+
+				<div class="toolbar toolbar-bottom custom-toolbar">
+					<div class="toolbar-inner">
+						<a href="/categories/" class="link active"><i class="material-icons">home</i></a>
+						<a href="/categories/" class="link"><i class="material-icons">local_offer</i></a>
+						<a href="/categories/" class="link"><i class="material-icons">shopping_cart</i></a>
+						<a href="/categories/" class="link"><i class="material-icons">notifications</i></a>
+						<a href="/categories/" class="link"><i class="material-icons">account_circle</i></a>
+					</div>
+				</div>
+
+
+		</div>
+
+
+
+
+	</div>
+
+
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+
+
+
+
+
+</body>
+
+</html>
